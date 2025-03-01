@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="lg:text-8xl md:text-6xl text-4xl font-extrabold text-black ">
           Rapid Recipe
         </h1>
-        <button className="bg-black rounded-md p-3 text-white ">
+        <button className="bg-green-600 rounded-md p-3 text-white ">
           <Link href="/recipe-list">Explore</Link>
         </button>
       </div>

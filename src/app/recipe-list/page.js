@@ -16,7 +16,7 @@ export default async function Recipes() {
 
   return (
     <div className="ml-10 mt-10">
-      <button className="bg-black rounded-md p-3 text-white">
+      <button className="bg-green-600 rounded-md p-3 text-white">
         <Link href={"/"}>Go home</Link>
       </button>
       <RecipeList recipeList={recipeList} />
